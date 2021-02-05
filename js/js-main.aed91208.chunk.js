@@ -3103,13 +3103,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -3295,13 +3295,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -3487,13 +3487,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && (this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && (this.setState({
                                 name: this.props.location.state.name
                             }), this.setState({
                                 video: this.props.location.state.video
@@ -3683,13 +3683,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -3875,13 +3875,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -4067,13 +4067,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -4256,13 +4256,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
                             })
                         }
@@ -4328,7 +4328,7 @@
                                 return p.a.wrap((function(e) {
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
-                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), s.async = !1, document.body.appendChild(s), c = this, s.onload = function() {
+                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/js-support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), s.async = !1, document.body.appendChild(s), c = this, s.onload = function() {
                                                 c.isFunction(window.$) & c.isFunction(window.$(".outer,.nested").mCustomScrollbar) && (window.$(".outer,.nested").mCustomScrollbar(), window.$(".inner.horizontal-images").mCustomScrollbar({
                                                     axis: "x",
                                                     advanced: {
@@ -4532,7 +4532,7 @@
                                 return p.a.wrap((function(e) {
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
-                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), s.async = !1, document.body.appendChild(s), c = this, s.onload = function() {
+                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/js-support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), s.async = !1, document.body.appendChild(s), c = this, s.onload = function() {
                                                 c.isFunction(window.$) & c.isFunction(window.$(".outer,.nested").mCustomScrollbar) && (window.$(".outer,.nested").mCustomScrollbar(), window.$(".inner.horizontal-images").mCustomScrollbar({
                                                     axis: "x",
                                                     advanced: {
@@ -4741,7 +4741,7 @@
                                 return p.a.wrap((function(e) {
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
-                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), s.async = !1, document.body.appendChild(s), c = this, s.onload = function() {
+                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/js-support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), s.async = !1, document.body.appendChild(s), c = this, s.onload = function() {
                                                 c.isFunction(window.$) & c.isFunction(window.$(".outer,.nested").mCustomScrollbar) && (window.$(".outer,.nested").mCustomScrollbar(), window.$(".inner.horizontal-images").mCustomScrollbar({
                                                     axis: "x",
                                                     advanced: {
@@ -4951,7 +4951,7 @@
                                 return p.a.wrap((function(e) {
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
-                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/media-player.js"), s.async = !1, document.body.appendChild(s), (c = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), c.async = !1, document.body.appendChild(c), a = this, c.onload = function() {
+                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/js-support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/js-media-player.js"), s.async = !1, document.body.appendChild(s), (c = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), c.async = !1, document.body.appendChild(c), a = this, c.onload = function() {
                                                 a.isFunction(window.$) & a.isFunction(window.$(".outer,.nested").mCustomScrollbar) && (window.$(".outer,.nested").mCustomScrollbar(), window.$(".inner.horizontal-images").mCustomScrollbar({
                                                     axis: "x",
                                                     advanced: {
@@ -5155,7 +5155,7 @@
                                 return p.a.wrap((function(e) {
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
-                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/media-player.js"), s.async = !1, document.body.appendChild(s), (c = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), c.async = !1, document.body.appendChild(c), a = this, c.onload = function() {
+                                            return window.addEventListener("resize", this.checkIfMobile), (t = document.createElement("script")).src = "".concat("", "/js/js-support.js"), t.async = !1, document.body.appendChild(t), (s = document.createElement("script")).src = "".concat("", "/js/js-media-player.js"), s.async = !1, document.body.appendChild(s), (c = document.createElement("script")).src = "".concat("", "/js/jquery.mCustomScrollbar.concat.min.js"), c.async = !1, document.body.appendChild(c), a = this, c.onload = function() {
                                                 a.isFunction(window.$) & a.isFunction(window.$(".outer,.nested").mCustomScrollbar) && (window.$(".outer,.nested").mCustomScrollbar(), window.$(".inner.horizontal-images").mCustomScrollbar({
                                                     axis: "x",
                                                     advanced: {
@@ -5682,7 +5682,7 @@
                 var c = document.createElement("script");
                 c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                 var a = document.createElement("script");
-                a.src = "".concat("", "/js/js-loadcss.js"), a.async = !1, document.body.appendChild(a);
+                a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a);
                 var n = document.createElement("script");
                 n.src = "".concat("", "/js/js-footer-horizontal-scroll.js"), n.async = !1, document.body.appendChild(n)
             }
@@ -8421,13 +8421,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -8530,13 +8530,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -8739,13 +8739,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -8945,13 +8945,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -9151,13 +9151,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -9357,13 +9357,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -9563,13 +9563,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -9769,13 +9769,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -9975,13 +9975,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -10181,13 +10181,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -10387,13 +10387,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
                             })
                         }
@@ -11876,13 +11876,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
@@ -12082,13 +12082,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -12274,13 +12274,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && (this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && (this.setState({
                                 name: this.props.location.state.name
                             }), this.setState({
                                 video: this.props.location.state.video
@@ -12470,13 +12470,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.props.location.state && this.setState({
                                 backLink: this.props.location.state.backLink
                             }), this.setState({
                                 isLoading: !1
@@ -12659,13 +12659,13 @@
                             var e = document.createElement("script");
                             e.src = "".concat("", "/js/removecss.js"), e.async = !1;
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
-                            s.src = "".concat("", "/js/support.js"), s.async = !1, document.body.appendChild(s);
+                            s.src = "".concat("", "/js/js-support.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
-                            this.state.script = a, a.src = "".concat("", "/js/video.js"), a.async = !1, document.body.appendChild(a), this.setState({
+                            this.state.script = a, a.src = "".concat("", "/js/js-video.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
                             })
                         }
@@ -12766,13 +12766,13 @@
                         value: function() {
                             window.addEventListener("resize", this.checkIfMobile);
                             var e = document.createElement("script");
-                            this.state.script = e, e.src = "".concat("", "/js/video.js"), e.async = !1, document.body.appendChild(e);
+                            this.state.script = e, e.src = "".concat("", "/js/js-video.js"), e.async = !1, document.body.appendChild(e);
                             var t = document.createElement("script");
-                            t.src = "".concat("", "/js/fullpage.js"), t.async = !1, document.body.appendChild(t);
+                            t.src = "".concat("", "/js/js-fullpage.js"), t.async = !1, document.body.appendChild(t);
                             var s = document.createElement("script");
                             s.src = "".concat("", "/js/mobilesupport.js"), s.async = !1, document.body.appendChild(s);
                             var c = document.createElement("script");
-                            c.src = "".concat("", "/js/media-player.js"), c.async = !1, document.body.appendChild(c);
+                            c.src = "".concat("", "/js/js-media-player.js"), c.async = !1, document.body.appendChild(c);
                             var a = document.createElement("script");
                             a.src = "".concat("", "/js/loadcss.js"), a.async = !1, document.body.appendChild(a), this.setState({
                                 isLoading: !1
