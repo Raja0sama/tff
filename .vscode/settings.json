@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/da13d4e5-a503-4d72-8080-60bf52afcb14/resourceGroups/TrafficDigital/providers/Microsoft.Web/sites/wewanttraffic",
+    "appService.deploySubpath": "."
+}

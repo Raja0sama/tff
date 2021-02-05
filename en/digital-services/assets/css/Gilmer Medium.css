@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Gilmer Medium';
+	src: url(../../assets/fonts/GilmerMedium.woff2) format('woff2'),
+	url(../../assets/fonts/GilmerMedium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+}

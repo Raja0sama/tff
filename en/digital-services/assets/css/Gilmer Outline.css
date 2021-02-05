@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Gilmer Outline';
+	src: url(../../assets/fonts/GilmerOutline.woff2) format('woff2'),
+	url(../../assets/fonts/GilmerOutline.woff) format('woff');
+	font-weight: 800;
+	font-style: normal;
+}

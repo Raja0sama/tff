@@ -1,0 +1,17 @@
+{
+  "name": "wewanttraffic.com-240",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --coverage",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js --unhandled-rejections=warn",
+    "lint": "eslint src/**/*.js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

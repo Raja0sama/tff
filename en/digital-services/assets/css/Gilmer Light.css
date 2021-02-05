@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Gilmer Light';
+	src: url(../../assets/fonts/GilmerLight.woff2) format('woff2'),
+	url(../../assets/fonts/GilmerLight.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+}

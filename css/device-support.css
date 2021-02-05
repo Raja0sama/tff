@@ -1,0 +1,2107 @@
+html,
+body {
+  font-size: 3.8vw;
+}
+.device #myVideo {
+  position: fixed;
+  top: 0;
+  left: -170%;
+  width: auto;
+  min-height: 100vh;
+  z-index: -11111;
+  background: url(../assets/slider.jpg) no-repeat center center black;
+  background-size: cover;
+}
+.device .brand-logo {
+  display: block;
+  width: 44vw;
+  height: 15vw;
+  background: url(../assets/logoWhite.svg) no-repeat center top transparent;
+  background-size: 100%;
+  position: absolute;
+  top: 4vw;
+  left: 7vw;
+  z-index: 111;
+}
+.device .brand-blue .brand-logo {
+  display: block;
+  width: 44vw;
+  height: 15vw;
+  background: url(../assets/logoDark.svg) no-repeat center top transparent;
+  background-size: 100%;
+  position: absolute;
+  top: 4vw;
+  left: 7vw;
+  z-index: 111;
+}
+.device .home-fullpage {
+  background: url(../assets/massets/homemain.jpg) no-repeat center center black;
+  background-size: cover;
+}
+.device .Header-Nav {
+  position: absolute;
+}
+.device .fp-viewing-homepage-about .header-nav button {
+  background: url(../assets/menu-icon-white.svg) no-repeat center center
+    transparent !important;
+  background-size: 2vw !important;
+}
+.device .header-getstarted {
+  display: none;
+}
+.device .header-nav button,
+.header-nav button:focus {
+  display: block;
+  width: 12vw;
+  height: 8vw;
+  margin-left: 0vw;
+  margin-top: 1.6vw;
+  border: none;
+  outline: none;
+  background: url(../assets/menu-icon-white.svg) no-repeat center center
+    transparent;
+  background-size: 9vw !important;
+}
+.device .scroll-explore {
+  width: 100%;
+  position: absolute;
+  left: 0vw;
+  bottom: 6vw;
+  z-index: 1111;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+}
+.device .scroll-explore a {
+  font-size: 3vw;
+}
+.device .scroll-explore svg {
+  width: 4vw;
+}
+.device #wheel,
+.device #mouse {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 20px;
+}
+
+.device .playbtn-boxdiv {
+  position: absolute;
+  bottom: 25vw;
+}
+.device .Playbtn-box {
+  width: 24vw;
+  height: 24vw;
+  position: unset;
+  right: unset;
+  bottom: unset;
+  transform: translate3d(-0%, -0%, 0);
+  transition: transform 0.2s cubic-bezier(0.8, 0.8, 0, 1.08);
+}
+.device .Playbtn-box a {
+  display: block;
+  width: 24vw;
+  height: 24vw;
+  overflow: hidden;
+}
+.device .Playbtn-box a i {
+  display: block;
+  overflow: hidden;
+  width: 24vw;
+  height: 24vw;
+  position: absolute;
+  z-index: 11111;
+  left: 0px;
+  top: 0px;
+  background: url(../assets/play-icon.svg) no-repeat center center transparent;
+  background-size: 5vw;
+}
+.device .Playbtn-box a label {
+  display: block;
+  overflow: hidden;
+  width: 24vw;
+  height: 24vw;
+  background: url(../assets/playbtn.svg) no-repeat center center transparent;
+  background-size: 24vw;
+  -webkit-animation: spinD 14s linear infinite;
+  -moz-animation: spinD 14s linear infinite;
+  animation: spinD 14s linear infinite;
+}
+@-moz-keyframes spinD {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spinD {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spinD {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.device .menuUp .header-nav {
+  width: 10vw;
+  margin-top: 3vw;
+}
+.device .menuUp .header-nav label {
+  line-height: 2em;
+  font-size: 2.5vw;
+}
+.device .menuUp .Header-Nav {
+  position: absolute;
+  top: 2.6vw;
+  right: 7.6vw;
+}
+
+.device .MenuUp-menu {
+  color: #20c2af;
+  text-transform: uppercase;
+  font-size: 3.1vw;
+  word-spacing: 0.1vw;
+  letter-spacing: 0.1vw;
+}
+.device .MenuUp-menu::before {
+  content: "";
+  display: block;
+  width: 8vw;
+  height: 0.3vw;
+  background: #20c2af;
+  position: absolute;
+  left: -10.5vw;
+  top: 2.3vw;
+}
+.device .MenuCenter ul {
+  font-size: 13vw;
+  padding: 0px 0px 5vw 0px;
+}
+.device .menuUpSlide .menuULBD:after {
+  width: 0vw;
+  animation: DeviceMenuLinksLine 0.8s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+@keyframes DeviceMenuLinksLine {
+  0% {
+    width: 0vw;
+  }
+  100% {
+    width: 65vw;
+  }
+}
+.device .eachScrolpageTitle {
+  color: #3d1152;
+  text-transform: uppercase;
+  font-size: 3vw;
+  letter-spacing: 0.2vw;
+  font-weight: 600;
+}
+.device .menu-social a {
+  width: 8vw;
+  height: 8vw;
+  margin-right: unset;
+}
+
+/* About Us Home Page */
+.device .aboutscrollpage {
+  position: unset;
+}
+.device .aboutscrollpage h1 {
+  font-size: 9vw;
+}
+.device .aboutscrollpage p {
+  font-size: 4vw !important;
+}
+.device .aboutyears {
+  font-size: 4vw;
+  width: 40vw;
+}
+.device .aboutyears i {
+  width: 24vw;
+  height: 3vw;
+  display: block;
+}
+.device .aboutyears i::before {
+  content: "";
+  display: block;
+  width: 14vw;
+  height: 0.5vw;
+  background: #3d1152;
+  position: absolute;
+  top: 2vw;
+  left: 12.4vw;
+  opacity: 0.6;
+}
+.device .Pagelearnbtn {
+  background: url(../assets/dot-icon-dark.svg) no-repeat 9vw 3.6vw transparent;
+  background-size: 3vw !important;
+  width: 50vw;
+  font-size: 4vw;
+  padding: 2vw 1.5vw 2vw 2.5vw;
+  margin-top: 20vw;
+}
+.device .aboutimagescrollpage {
+  width: 130vw;
+  height: 130vw;
+  top: -15vw;
+  right: -85vw;
+  background: url(../assets/aboutimage.png) no-repeat right center;
+  background-size: 130vw;
+}
+.device .active .aboutimagescrollpage {
+  opacity: 0;
+  width: 0vw;
+  height: 0vw;
+  right: -85vw;
+  border-radius: 100vw;
+  overflow: hidden !important;
+  animation: aboutimgdive 1.6s ease-in-out forwards;
+  animation-delay: 1s;
+}
+@keyframes aboutimgdive {
+  0% {
+    width: 0vw;
+    height: 0vw;
+    top: 4.4vw;
+    opacity: 0;
+  }
+  100% {
+    width: 130vw;
+    height: 130vw;
+    top: -15vw;
+    opacity: 1;
+  }
+}
+
+/* Case Homes Page */
+.device .pagetext-space {
+  font-size: 4vw;
+}
+.device .Slider-fullpage h1 {
+  font-size: 16vw;
+}
+.device .playvideo-btn {
+  background: url(../assets/play-icon.svg) no-repeat 8vw 3vw transparent;
+  background-size: 4vw !important;
+  width: 42vw;
+  font-size: 4vw;
+  padding: 2vw 4.3vw 2vw 10vw;
+}
+.device .playvideo-btn:hover {
+  background: url(../assets/play-icon.svg) no-repeat 8vw 3vw #e81f76;
+  background-size: 4vw !important;
+  border: solid 0.1vw #e81f76;
+  width: 42vw;
+  font-size: 4vw;
+  padding: 2vw 3.5vw 2vw 10.5vw;
+}
+
+/* Career Home Page */
+.device .career-pinkcircle {
+  background: url(../assets/pink-bg.svg);
+  width: 150vw;
+  height: 155vw;
+  position: absolute;
+  top: 22vw;
+  left: -25vw;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.device .active .career-pinkcircle {
+  animation: career-pinkcircleDevice 1s ease-in-out forwards;
+  -webkit-animation: career-pinkcircleDevice 1s ease-in-out forwards;
+}
+@keyframes career-pinkcircleDevice {
+  0% {
+    top: 25vw;
+    left: 43vw;
+    width: 1vw;
+    height: 1vw;
+    opacity: 0;
+  }
+  100% {
+    top: 22vw;
+    left: -25vw;
+    width: 150vw;
+    height: 155vw;
+    opacity: 1;
+  }
+}
+.device .careerpink-content {
+  width: 70vw;
+  text-align: center;
+}
+.device .career-pinkcircle h1 {
+  font-size: 10vw;
+  margin-bottom: 60px;
+}
+.device .career-pinkcircle p {
+  font-size: 4vw;
+}
+.device .careerbtnhome {
+  background: url(../assets/dot-icon-white.svg) no-repeat 8vw 4vw transparent;
+  background-size: 3vw !important;
+  width: 60vw;
+  font-size: 4vw;
+  padding: 2vw 1.5vw 2vw 7.5vw;
+}
+.device .footerGetInTouch span:nth-child(1) {
+  font-size: 8vw;
+}
+.device .footerGetInTouch span:nth-child(2) {
+  font-family: Gilmer-bold;
+  font-weight: 500;
+  font-size: 8vw;
+  color: #e81f76;
+}
+.device .footeraddresscountry {
+  width: 300vw;
+  display: flex;
+  flex-wrap: nowrap;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+.device .footerCopy {
+  font-size: 3vw;
+}
+.device .footerCopy img {
+  width: 28vw;
+  margin-left: 16px !important;
+}
+.device .footer-fb,
+.device .footer-tw,
+.device .footer-in,
+.device .footer-ins,
+.device .footer-yt {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 2vw;
+}
+
+.device .content {
+  overflow: auto;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.device .horizontal-images.content li {
+  width: 80vw;
+  margin: 0 3px;
+  float: left;
+}
+
+.device .Country-UAE::before,
+.device .Country-SRA::before,
+.device .Country-PK::before,
+.device .Country-Egypt::before {
+  content: "";
+  display: block;
+  width: 12.4vw;
+  height: 16vw;
+  position: absolute;
+  left: 2.5vw;
+  top: -2.4vw;
+}
+.device .Country-UAE,
+.device .Country-SRA,
+.device .Country-PK,
+.device .Country-Egypt {
+  padding: 0 2vw 0 18.5vw;
+}
+.device .mCSB_scrollTools::after {
+  display: none;
+}
+.device .footerxscroller {
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.device .footerxscroller div.loc {
+  width: 70vw;
+  float: left;
+  padding: 0 3vw 0 18vw;
+}
+.device .FooterContent,
+.device .stop-header .FooterContent {
+  height: unset !important;
+}
+.device .FooterContent .country {
+  font-size: 7vw;
+}
+.device .FooterContent .telephone a {
+  font-size: 4vw;
+  padding: 4vw 0;
+}
+.device .FooterContent .telephone a {
+  font-size: 4vw;
+}
+.device .FooterContent .address {
+  font-size: 4vw;
+}
+.device .FooterLi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.device .Country-UAEx .country::before,
+.device .Country-SRAx .country::before,
+.device .Country-PKx .country::before,
+.device .Country-Egyptx .country::before {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 13vw;
+  position: absolute;
+  left: -11vw;
+  top: -1.4vw;
+}
+
+.device .Country-UAEx .country::before {
+  background: url(../assets/uaeFooter.svg) no-repeat center center transparent;
+  background-size: 100%;
+}
+.device .Country-SRAx .country::before {
+  background: url(../assets/saudiaFooter.svg) no-repeat center center
+    transparent;
+  background-size: 100%;
+}
+.device .Country-PKx .country::before {
+  background: url(../assets/pakistanFooter.svg) no-repeat center center
+    transparent;
+  background-size: 100%;
+}
+.device .Country-Egyptx .country::before {
+  background: url(../assets/egyptFooter.svg) no-repeat center center transparent;
+  background-size: 100%;
+}
+
+/* About Page */
+.device .aboutround-pic {
+  width: 80vw;
+  height: 49.3vw;
+  position: absolute;
+  left: -9vw;
+  bottom: 0vw;
+}
+.device .aboutround-second-pic {
+  width: 80vw;
+  height: 18.5vw;
+  position: absolute;
+  left: -12vw;
+  top: 0vw;
+}
+.device .aboutuspage-line {
+  color: #e81f76;
+  font-size: 4vw;
+  letter-spacing: 0.6vw;
+  text-transform: uppercase;
+  margin-bottom: 7vw;
+}
+.device .aboutuspage-line::before {
+  content: "";
+  display: block;
+  width: 9vw;
+  height: 0.2vw;
+  position: absolute;
+  top: 3vw;
+  left: -11.5vw;
+  background-color: #e81f76;
+}
+.device .aboutuspage-Content h1 {
+  font-size: 13.5vw;
+  line-height: 13.5vw;
+}
+.device .mainabout-fullpage .scroll-explore {
+  width: 100%;
+  position: unset;
+  margin-top: 7vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  justify-items: start;
+  justify-self: start;
+  letter-spacing: 0.6vw;
+}
+.device .mainabout-fullpage .scroll-explore a {
+  line-height: 9vw;
+}
+.device .mainabout-fullpage .scroll-explore svg {
+  margin-right: 3vw;
+}
+.device .aboutDescription-page {
+  font-size: 4vw;
+  font-weight: 600;
+  margin: 40vw 0 6vw 0;
+  padding: 0 0 2vw 0;
+  border-bottom: solid 0.4vw #cccccc;
+}
+.device .aboutDescription-page .aboutOverlink {
+  color: #20c2af;
+  text-decoration: underline;
+  margin-top: 3vw;
+  display: block;
+}
+.device .aboutDescriptionWelcome {
+  text-transform: uppercase;
+  color: #3d1152;
+  position: relative;
+  font-weight: 600;
+  font-size: 3.6vw;
+  letter-spacing: 0.3vw;
+}
+.device .aboutDescriptionWelcome-text {
+  text-transform: none;
+  color: black;
+  font-weight: normal;
+}
+.device .aboutover-bgOver .aboutDescriptionWelcome,
+.device
+  .aboutover-bgOver
+  .aboutDescriptionWelcome
+  .aboutDescriptionWelcome-text {
+  color: white;
+}
+.device .about-people {
+  background: transparent !important;
+  background-size: cover !important;
+}
+.device .about-next::after {
+  content: "";
+  display: block;
+  width: 5vw;
+  height: 3.5vw;
+  position: absolute;
+  opacity: 0;
+  background: url(../assets/about-arrow-next.svg) no-repeat left center;
+  background-size: 5vw;
+  animation: abonextarrow 1.6s ease-in-out forwards;
+  animation-delay: 3s;
+  -webkit-animation: abonextarrow 1.6s ease-in-out forwards;
+}
+.device .aboutDescriptionWelcome::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 90vw;
+  height: 90vw;
+  right: -50vw;
+  top: -6vw;
+  z-index: 1;
+  background: url(../assets/about-page-image.png) no-repeat right center;
+  background-size: 90vw;
+}
+.device .active .aboutDescriptionWelcome::after {
+  content: "";
+  display: block;
+  opacity: 0;
+  width: 0vw;
+  height: 0vw;
+  border-radius: 100vw;
+  overflow: hidden !important;
+  animation: aboutpageimgDevice 1.6s ease-in-out forwards;
+  -webkit-animation: aboutpageimgDevice 1.6s ease-in-out forwards;
+  /*animation-delay: 1s;
+  */
+  -webkit-border-radius: 100vw;
+  -webkit-border-radius: 100vw;
+  -moz-border-radius: 100vw;
+  -ms-border-radius: 100vw;
+  -o-border-radius: 100vw;
+}
+@keyframes aboutpageimgDevice {
+  0% {
+    width: 0vw;
+    height: 0vw;
+    top: 23vw;
+    opacity: 0;
+  }
+  100% {
+    width: 90vw;
+    height: 90vw;
+    top: -6vw;
+    opacity: 1;
+  }
+}
+.device .aboutover-bgOver .aboutDescriptionWelcome::after {
+  position: absolute;
+  width: 60vw;
+  height: 60vw;
+  right: -35vw;
+  top: 5vw;
+  background: url(../assets/aboutMouseOverPic.jpg) no-repeat right center;
+  background-size: 60vw;
+}
+.device .aboutover-bgOver .aboutDescriptionWelcome::after {
+  content: "";
+  display: block;
+  opacity: 0;
+  width: 0vw;
+  height: 0vw;
+  border-radius: 100vw;
+  overflow: hidden !important;
+  animation: aboutpageimg2device 1.6s ease-in-out forwards;
+  -webkit-animation: aboutpageimg2device 1.6s ease-in-out forwards;
+  /*animation-delay: 1s;
+  */
+  -webkit-border-radius: 100vw;
+  -moz-border-radius: 100vw;
+  -ms-border-radius: 100vw;
+  -o-border-radius: 100vw;
+  -webkit-border-radius: 100vw;
+}
+@keyframes aboutpageimg2device {
+  0% {
+    width: 0vw;
+    height: 0vw;
+    top: 23vw;
+    opacity: 0;
+  }
+  100% {
+    width: 60vw;
+    height: 60vw;
+    top: 10vw;
+    opacity: 1;
+  }
+}
+
+/* Team */
+.device .about-people .teamreach {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.device .about-people.active .teamreach {
+  opacity: 0;
+  background: url(../assets/massets/team1.jpg) no-repeat right top !important;
+  background-size: cover !important;
+  animation: hino 0.3s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.device .teamreach a {
+  width: 4vw;
+  height: 4vw;
+}
+.device .aboutdetailslist div:first-child {
+  max-height: none !important;
+}
+.device .about-next {
+  position: absolute;
+  opacity: 0;
+  bottom: 35vw;
+}
+.device .teamreach .teambox .team1 a.sami {
+  left: 20%;
+}
+.device .teamreach .teambox .team1 a.ross {
+  left: 81%;
+}
+
+.device .teamreach .teambox .team2 a.ross {
+  left: 8%;
+}
+.device .teamreach .teambox .team2 a.ruby {
+  left: 90%;
+}
+
+.device .teamreach .teambox .team2 a.dom {
+  left: 50%;
+}
+.device .teamreach .teambox .team2 a.rossl {
+  left: 90%;
+}
+
+.device .teamreach .teambox .team1 a.sami {
+  position: absolute;
+  opacity: 0;
+  left: 20%;
+  animation: samiD 1.3s ease-in-out forwards;
+  -webkit-animation: samiD 1.3s ease-in-out forwards;
+}
+@keyframes samiD {
+  0% {
+    top: 105%;
+    opacity: 0;
+  }
+  100% {
+    top: 38%;
+    opacity: 1;
+  }
+}
+
+.device .teamreach .teambox .team1 a.ross {
+  position: absolute;
+  opacity: 0;
+  left: 81%;
+  animation: rossD 1.3s ease-in-out forwards;
+  animation-delay: 0.8s;
+  -webkit-animation: rossD 1.3s ease-in-out forwards;
+}
+@keyframes rossD {
+  0% {
+    top: 105%;
+    opacity: 0;
+  }
+  100% {
+    top: 38%;
+    opacity: 1;
+  }
+}
+
+.device .teamreach .teambox .team2 a.ross {
+  position: absolute;
+  opacity: 0;
+  left: 8%;
+  animation: rossD 1.3s ease-in-out forwards;
+  -webkit-animation: rossD 1.3s ease-in-out forwards;
+}
+@keyframes rossD {
+  0% {
+    top: 105%;
+    opacity: 0;
+  }
+  100% {
+    top: 38%;
+    opacity: 1;
+  }
+}
+
+.device .teamreach .teambox .team2 a.ruby {
+  position: absolute;
+  opacity: 0;
+  left: 90%;
+  animation: rubyD 1.3s ease-in-out forwards;
+  animation-delay: 0.8s;
+  -webkit-animation: rubyD 1.3s ease-in-out forwards;
+}
+@keyframes rubyD {
+  0% {
+    top: 105%;
+    opacity: 0;
+  }
+  100% {
+    top: 48%;
+    opacity: 1;
+  }
+}
+
+.device .teamreach .teambox .team3 a.dom {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  animation: domD 1.3s ease-in-out forwards;
+  -webkit-animation: domD 1.3s ease-in-out forwards;
+}
+@keyframes domD {
+  0% {
+    top: 105%;
+    opacity: 0;
+  }
+  100% {
+    top: 40%;
+    opacity: 1;
+  }
+}
+.device .teamreach .teambox .team3 a.rossl {
+  position: absolute;
+  opacity: 0;
+  left: 90%;
+  animation: rosslD 1.3s ease-in-out forwards;
+  animation-delay: 0.8s;
+  -webkit-animation: rosslD 1.3s ease-in-out forwards;
+}
+@keyframes rosslD {
+  0% {
+    top: 105%;
+    opacity: 0;
+  }
+  100% {
+    top: 46%;
+    opacity: 1;
+  }
+}
+
+.device .about-back,
+.device .about-back:focus {
+  font-size: 2.5vw;
+  width: 24vw;
+  padding: 0 0 0 7vw;
+}
+
+.device .about-next,
+.device .about-next:focus {
+  font-size: 2.5vw;
+  width: 24vw;
+  padding: 0 5vw 0 0;
+}
+
+.device .about-back::before {
+  width: 12vw;
+  height: 4vw;
+  background-size: 7vw;
+}
+
+.device .teambox .teamMove {
+  width: 50vw;
+  height: 20vw;
+  position: absolute;
+  bottom: 30vw;
+  left: 5vw;
+  z-index: 99;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.device .teambox .teamMove .teamprev,
+.device .teambox .teamMove .teamprev:focus {
+  width: 12vw;
+  height: 18vw;
+  background: url(../assets/massets/teamprev.svg) no-repeat center center
+    transparent;
+  background-size: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.device .teambox .teamMove .teamcircle,
+.device .teambox .teamMove .teamcircle:focus {
+  width: 18vw;
+  height: 18vw;
+  background: url(../assets/massets/teamcircle.svg) no-repeat center center
+    transparent;
+  background-size: 100%;
+  border: none;
+  outline: none;
+}
+.device .teambox .teamMove .teamnext,
+.device .teambox .teamMove .teamnext:focus {
+  width: 12vw;
+  height: 18vw;
+  background: url(../assets/massets/teamnext.svg) no-repeat center center
+    transparent;
+  background-size: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.device #sami {
+  background: url(../assets/samiAbout.jpg) no-repeat 84% center #101974;
+  background-size: cover;
+}
+.device #ross {
+  background: url(../assets/rossAbout.jpg) no-repeat 80% center #101974;
+  background-size: cover;
+}
+.device #ruby {
+  background: url(../assets/rubyAbout.jpg) no-repeat 80% center #101974;
+  background-size: cover;
+}
+.device #dom {
+  background: url(../assets/domAbout.jpg) no-repeat 80% center #101974;
+  background-size: cover;
+}
+.device #rossl {
+  background: url(../assets/rosslAbout.jpg) no-repeat 80% center #101974;
+  background-size: cover;
+}
+
+.device .aboutteamdetailstitle {
+  position: absolute;
+  bottom: 20vw;
+  left: 0px;
+  margin-left: 4vw;
+}
+.device .aboutteamdetailstitle h1 {
+  line-height: 17vw;
+  font-size: 17vw;
+}
+.device .aboutteamdetailstitle p {
+  line-height: 5vw;
+  font-size: 4vw;
+  letter-spacing: 0.5vw;
+  color: white;
+  text-align: left;
+  margin-top: 4vw;
+}
+.device .aboutteamdetailstitle a,
+.device .aboutteamdetailstitle a:focus {
+  line-height: 22vw;
+  font-size: 4vw;
+  letter-spacing: 0.5vw;
+  color: white;
+  font-weight: 500;
+}
+.device .aboutteamdetailstitle::after {
+  content: "";
+  display: block;
+  width: 14vw;
+  height: 6vw;
+  position: absolute;
+  left: 1vw;
+  top: 50vw;
+  background: url(../assets/getintouch-dots-Pink.svg) no-repeat left center;
+  background-size: 10vw;
+}
+.device .aboutteamdetailstitle .scroll-explore {
+  width: 100%;
+  position: unset;
+  padding: 5vw 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  justify-items: start;
+  justify-self: start;
+}
+.device .aboutteamdetails-bio {
+  height: 100vh;
+  background: #101974;
+  color: white;
+  display: none;
+  position: fixed;
+  z-index: 9999999999999999;
+  top: 0px;
+  left: 0px;
+}
+.device .aboutteamdetails-bio.show {
+  display: flex !important;
+}
+.device .aboutdetailslist li .aboutscroltitle {
+  font-size: 4vw;
+  font-weight: 600;
+  color: #019999;
+  letter-spacing: 0.4vw;
+}
+.device .aboutdetailslist {
+  text-transform: uppercase;
+  color: white;
+  font-size: 4.6vw;
+  font-weight: 600;
+  letter-spacing: 0.1vw;
+}
+.device .aboutdetailslist li {
+  padding: 4.3vw 0;
+}
+.device .team-fullpage .horizontal-images.content li {
+  width: 100%;
+  margin: 0 3px;
+  float: left;
+}
+.device .show .about-back-bio {
+  border: none;
+  background: transparent;
+}
+.device .show .about-back-bio::before {
+  width: 12vw;
+  height: 5.3vw;
+  background-size: 7vw;
+  z-index: 999999999999999999;
+}
+.device .about-back-bio::before {
+  content: "";
+  display: block;
+  width: 3vw;
+  height: 1.3vw;
+  position: absolute;
+  top: 4vw;
+  opacity: 0;
+  background: url(../assets/about-arrow.svg) no-repeat left center;
+  background-size: 30px;
+  animation: abobackarrowD 1.6s ease-in-out forwards;
+  animation-delay: 3s;
+  -webkit-animation: abobackarrowD 1.6s ease-in-out forwards;
+}
+@keyframes abobackarrowD {
+  0% {
+    left: 10vw;
+    opacity: 0;
+  }
+  100% {
+    left: 3vw;
+    opacity: 1;
+  }
+}
+.device .teamscroller-move {
+  position: absolute;
+  bottom: 15vw;
+  left: 0vw;
+}
+.device .teamscroll-up {
+  display: flex;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+  z-index: 99;
+  background: url(../assets/uparrow.svg) no-repeat center top;
+  background-size: 10vw;
+  text-decoration: none;
+}
+.device .frame-title {
+  border-bottom: solid 0.3vw #3d1152;
+  font-size: 4vw;
+  letter-spacing: 0.3vw;
+}
+.device .frame-title-text {
+  font-size: 3.8vw;
+  letter-spacing: 0.2vw;
+  line-height: 6vw;
+}
+.device .partner-logos ul li {
+  width: 50%;
+}
+
+.device .partner-logos ul li.facebook-partner i,
+.device .partner-logos ul li.instagram-partner i,
+.device .partner-logos ul li.google-partner i,
+.device .partner-logos ul li.linkedin-partner i,
+.device .partner-logos ul li.youtube-partner i,
+.device .partner-logos ul li.twitter-partner i,
+.device .partner-logos ul li.googlemap-partner i,
+.device .partner-logos ul li.snapchat-partner i,
+.device .partner-logos ul li.socialbakers-partner i {
+  display: block;
+  width: 100vw;
+  height: 16vw;
+}
+.device .partner-logos ul li.facebook-partner i {
+  background: url(../assets/facebook-partner.svg) no-repeat center center;
+  background-size: 30vw;
+}
+.device .partner-logos ul li.instagram-partner i {
+  background: url(../assets/instagram-partner.svg) no-repeat center center;
+  background-size: 27vw;
+}
+.device .partner-logos ul li.google-partner i {
+  background: url(../assets/google-partner.svg) no-repeat center center;
+  background-size: 27vw;
+}
+.device .partner-logos ul li.linkedin-partner i {
+  background: url(../assets/linkedin-partner.svg) no-repeat center center;
+  background-size: 27vw;
+}
+.device .partner-logos ul li.youtube-partner i {
+  background: url(../assets/youtube-partner.svg) no-repeat center center;
+  background-size: 26vw;
+}
+.device .partner-logos ul li.twitter-partner i {
+  background: url(../assets/twitter-partner.svg) no-repeat center center;
+  background-size: 28vw;
+}
+.device .partner-logos ul li.googlemap-partner i {
+  background: url(../assets/google-map-partner.svg) no-repeat center center;
+  background-size: 30vw;
+}
+.device .partner-logos ul li.snapchat-partner i {
+  background: url(../assets/snapchat-partner.svg) no-repeat center center;
+  background-size: 28vw;
+}
+.device .partner-logos ul li.socialbakers-partner i {
+  background: url(../assets/socialbakers-partner.svg) no-repeat center center;
+  background-size: 25vw;
+}
+
+.device .partner-logos ul li:nth-child(odd) {
+  border-right: solid 0.3vw #cccccc;
+  border-bottom: solid 0.3vw #cccccc;
+}
+.device .partner-logos ul li:nth-child(even) {
+  border-right: solid 0.3vw transparent;
+  border-bottom: solid 0.3vw #cccccc;
+}
+.device .partner-logos ul li:last-child {
+  border-bottom: solid 0.3vw transparent;
+}
+
+/* About Team */
+.device .teambox {
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  top: 0vw;
+  left: 0vw;
+}
+.device .teambox .team1 {
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  height: 100vh;
+  background: url(../assets/massets/team1.jpg) no-repeat left top;
+  background-size: cover;
+  display: none;
+}
+.device .teambox .team2 {
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  height: 100vh;
+  background: url(../assets/massets/team2.jpg) no-repeat left top;
+  background-size: cover;
+  display: none;
+}
+.device .teambox .team3 {
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  height: 100vh;
+  background: url(../assets/massets/team3.jpg) no-repeat left top;
+  background-size: cover;
+  display: none;
+}
+.device .teambox .show {
+  display: block;
+}
+
+/* Service Page */
+.device .Servicespage-Content h1 {
+  font-size: 11.8vw;
+  line-height: 12.5vw;
+}
+.device .Servicespage-Content p {
+  font-size: 5vw;
+  margin-top: 8vw;
+}
+.device .serviceshome-fullpage .scroll-explore {
+  bottom: -9vw !important;
+}
+.device .serviceshome-fullpage .scroll-explore a {
+  line-height: 8.3vw;
+  letter-spacing: 0.3vw;
+}
+.device .serviceshome-fullpage .scroll-explore svg {
+  margin-right: 2.5vw;
+}
+.device .serv-title h1 {
+  padding: 0vw 0 0 0vw;
+  font-size: 10vw;
+  line-height: 10vw;
+}
+.device .serv-title {
+  left: 5vw;
+  position: unset !important; /*remove temporary*/
+  /* top: 7vw; */
+}
+/* .device .assessment-fullpage .serv-list {
+  height: 40vh;
+}
+.device .assessment-fullpage.active .serv-list {
+  height: 0.01vh;
+  overflow: hidden;
+  animation: assessment 1s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes assessment {
+  0%{height: 0.01vh;}
+  100%{height: 40vh;}
+}
+.device .strategy-fullpage .serv-list {
+  height: 40vh;
+}
+.device .strategy-fullpage.active .serv-list {
+  height: 0.01vh;
+  overflow: hidden;
+  animation: strategy 1s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes strategy {
+  0%{height: 0.01vh;}
+  100%{height: 40vh;}
+}
+.device .content-fullpage .serv-list {
+  height: 55vh;
+}
+.device .content-fullpage.active .serv-list {
+  height: 0.01vh;
+  overflow: hidden;
+  animation: contentx 1s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes contentx {
+  0%{height: 0.01vh;}
+  100%{height: 55vh;}
+}
+.device .community-fullpage .serv-list {
+  height: 40vh;
+}
+.device .community-fullpage.active .serv-list {
+  height: 0.01vh;
+  overflow: hidden;
+  animation: community 1s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes community {
+  0%{height: 0.01vh;}
+  100%{height: 40vh;}
+}
+.device .amplification-fullpage .serv-list {
+  height: 40vh;
+}
+.device .amplification-fullpage.active .serv-list {
+  height: 0.01vh;
+  overflow: hidden;
+  animation: amplification 1s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes amplification {
+  0%{height: 0.01vh;}
+  100%{height: 40vh;}
+}
+
+.device .media-fullpage .serv-list {
+  height: 58vh;
+}
+.device .media-fullpage.active .serv-list {
+  height: 0.01vh;
+  overflow: hidden;
+  animation: media 1s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes media {
+  0%{height: 0.01vh;}
+  100%{height: 58vh;}
+} */
+
+.device .sectionx {
+  min-height: 100vh;
+  padding: 1.2rem;
+  width: 100vw;
+  overflow: hidden;
+}
+.device .serv-list .serv-list-text {
+  font-size: 3.6vw;
+}
+.device .serv-list {
+  background: white;
+  padding: 6vw;
+  width: 90vw;
+  height: auto !important;
+  position: unset; /* change to absolute*/
+  margin-top: 5vw;
+  top: auto;
+  bottom: 7.2vw;
+  right: 5vw;
+  overflow: hidden;
+}
+.device .serv-list .serv-list-ul {
+  padding: 3vw 0 0 0;
+  font-size: 2.9vw;
+  letter-spacing: 0.3vw;
+}
+.device .serv-list .serv-list-ul ul li::before {
+  content: "";
+  width: 1.5vw;
+  height: 1.5vw;
+  background: #20c2af;
+  border-radius: 1.5vw;
+  display: block;
+  position: absolute;
+  top: 4vw;
+  left: -1vw;
+}
+.device .serv-list .serv-list-ul ul li {
+  padding: 2.5vw 0 2.5vw 1.8vw;
+}
+.device .assessment-fullpage {
+  background: url(../assets/services/assessment_consultation.jpg) no-repeat 38%
+    center;
+  background-size: cover;
+}
+.device .strategy-fullpage {
+  background: url(../assets/services/strategy.jpg) no-repeat 37% center;
+  background-size: cover;
+}
+.device .content-fullpage {
+  background: url(../assets/services/content_design.jpg) no-repeat 25% center;
+  background-size: cover;
+}
+.device .community-fullpage {
+  background: url(../assets/services/community_engagement.jpg) no-repeat 44%
+    center;
+  background-size: cover;
+}
+.device .amplification-fullpage {
+  background: url(../assets/services/amplification.jpg) no-repeat 28% center;
+  background-size: cover;
+}
+
+.device .websiteFooter {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 23vh;
+}
+.device .pt-5.pb-5.footerCopy {
+  padding-top: 5vw !important;
+}
+/* Work Page */
+.device .omo-fullpage h1,
+.device .mamas-fullpage h1 {
+  font-size: 11vw;
+}
+.device .Workpage-Content h1 {
+  font-size: 12.5vw;
+  line-height: 13.5vw;
+}
+.device .Workpage-Content p {
+  margin-top: 8vw;
+  font-size: 4.8vw;
+}
+.device .workPagehome .scroll-explore {
+  justify-content: start;
+  justify-items: start;
+  justify-self: start;
+}
+.device .workPagehome .scroll-explore a {
+  line-height: 8.3vw;
+}
+.device .workPagehome .scroll-explore {
+  left: 2vw;
+}
+.device .scroll-explore svg {
+  margin-right: 2.5vw;
+}
+.device .workPagehome .scroll-explore {
+  bottom: -15vw !important;
+}
+.device .unicef-fullpage {
+  background: url(../assets/massets/Unicefbg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .honda-fullpage {
+  background: url(../assets/massets/Hondabg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .rexona-fullpage {
+  background: url(../assets/massets/Rexonabg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .dp-world-fullpage {
+  background: url(../assets/massets/DPworldBG.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .tresemme-fullpage {
+  background: url(../assets/massets/TRESemmebg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .emirates-fullpage {
+  background: url(../assets/massets/Emiratesbg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .omo-fullpage {
+  background: url(../assets/massets/OmoComfortbg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .mamas-fullpage {
+  background: url(../assets/massets/Mamasbg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.device .aecb-fullpage {
+  background: url(../assets/massets/AECBbg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* Contact page */
+.device .contactHomepage-Content h1 {
+  font-size: 13vw;
+}
+.device .contactHomepage-Content h5 {
+  font-family: Gilmer-Regular;
+  font-size: 6vw;
+  font-weight: normal;
+}
+.device a.contactPage-getdown {
+  font-size: 12.3vw;
+  line-height: 13vw;
+}
+.device .contactPage-getdown::before {
+  content: "";
+  display: block;
+  width: 3vw;
+  height: 2.9vw;
+  position: absolute;
+  top: 6.2vw;
+  left: -6vw;
+  background: #20c2af;
+  border-radius: 2vw;
+}
+.device .ContactHomeCircleImage-device {
+  width: 100vw;
+  height: 40vw;
+  background: url(../assets/Contact_pageRound.png) no-repeat center top;
+  background-size: 40vw;
+  overflow: hidden;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+}
+.device .contactHomepage-Content p {
+  font-size: 4.5vw;
+  color: #3d1152;
+  position: relative;
+  margin-top: 11vw;
+  margin-bottom: 7vw;
+}
+.device .contactHomepage-Content p::after {
+  content: "";
+  display: block;
+  width: 70vw;
+  height: 0.3vw;
+  background: #d4ced7;
+  position: absolute;
+  top: 3.6vw;
+  left: 9vw;
+}
+.device .ContactFormTitle h1 {
+  font-size: 11.5vw !important;
+}
+.device .ContactFormTitle h1::before {
+  content: "";
+  display: block;
+  width: 11vw;
+  height: 5vw;
+  background: url(../assets/getintouch-dots-Pink.svg) no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: -8vw;
+  left: 0vw;
+}
+.device .ContactBtn-device {
+  font-family: Gilmer-Bold;
+  border: none;
+  width: 76vw;
+  height: 12vw;
+  padding: 0 0 0 3.5vw;
+  background: url(../assets/dot-icon-white.svg) no-repeat 27.5vw 4.8vw #e81f76;
+  color: white;
+  border-radius: 10vw;
+  outline: none;
+}
+/* .device .ContactBtn-device::before {
+  content: '';
+  display: block;
+  width: 1.4vw;
+  height: 1.4vw;
+  background: white;
+  position: absolute;
+  top: 5.2vw;
+  left: 31.5vw;
+  border-radius: 1vw;
+  -webkit-border-radius: 1vw;
+  -moz-border-radius: 1vw;
+  -ms-border-radius: 1vw;
+  -o-border-radius: 1vw;
+} */
+
+.device .Slider-fullpage .pagetext-space {
+  padding-top: 10.2vw;
+}
+
+/* Marquee For Footer */
+/* .device .FooterContent {
+  width: 275vw;
+} */
+/* .section.active  .marqueefooter {
+  overflow: hidden;
+  position: relative;
+}
+
+.section.active .marqueefooter .Marquee-pfooter {
+  width: 270vw;
+  flex-wrap: nowrap;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  transform: translateX(100%);
+  animation: scroll-leftfooter 10s linear infinite;
+  animation-delay: 0.3s;
+}
+
+@-moz-keyframes scroll-leftfooter {
+  0% {
+      -moz-transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-leftfooter {
+  0% {
+      -webkit-transform: translateX(100%);
+  }
+  100% {
+      -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-leftfooter {
+  0% {
+      transform: translateX(10%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+} */
+/* Marquee Second */
+/* .section .marqueefooter {
+  height:50vw;
+  overflow: hidden;
+  position: relative;
+} */
+
+/* .section .marqueefooter .Marquee-pfooter {
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  transform: translateX(100%);
+  animation: scroll-leftx 28s linear infinite;
+}
+
+@-moz-keyframes scroll-leftxfooter {
+  0% {
+      -moz-transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-leftxfooter {
+  0% {
+      -webkit-transform: translateX(100%);
+  }
+  100% {
+      -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-leftxfooter {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+} */
+
+/* .active  .marqueefooter .Marquee-pfooter:hover {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+} */
+/* Marquee for Footer End */
+
+/* PLayer */
+.device #playerpage #fullpage {
+  top: 0vw !important;
+}
+.device #playerpage .playernav {
+  font-size: 2.8vw;
+}
+.device #playerpage .playergoback {
+  font-size: 2.8vw;
+}
+.device #playerpage .playergoback::before {
+  content: "";
+  display: block;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  top: 1vw;
+  right: 13vw;
+  z-index: 111;
+  background: url(../assets/about-arrow.svg) no-repeat left center;
+  background-size: 100%;
+}
+.device .videoprogress {
+  background: #cccccc !important;
+  color: #ffffff !important;
+  height: 1vw;
+  width: 84%;
+}
+
+.device .play,
+.device .play:focus,
+.device .pause,
+.device .pause:focus {
+  display: block;
+  font-size: 0px;
+  width: 5vw;
+  height: 5vw;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  right: 2vw;
+  outline: none;
+  cursor: pointer !important;
+}
+.device .play {
+  background: url(../assets/player-actionbg.svg);
+}
+.device .pause {
+  background: url(../assets/player-actionbg.svg);
+}
+.device .play::before {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  background: url(../assets/play-icon.svg) no-repeat center center;
+  background-size: 2vw;
+}
+.device .pause::before {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../assets/pausebtn.svg) no-repeat center center;
+  background-size: 3vw;
+}
+
+/* Player */
+#playerpage .play,
+#playerpage .play:focus,
+#playerpage .pause,
+#playerpage .pause:focus {
+  display: block;
+  font-size: 0px;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  right: 7vw;
+  outline: none;
+  cursor: pointer !important;
+}
+
+.device .playerbtnplace {
+  position: absolute;
+  bottom: 3vw;
+}
+
+.device .player-details {
+  background: url(../assets/playerbg.png);
+  height: 74vh;
+  padding: 15vw 0 0 0;
+}
+
+.device .playerdetails-content::before {
+  content: "";
+  display: block;
+  width: 8vw;
+  height: 4vw;
+  background: url(../assets/getintouch-dots-Pink.svg) no-repeat left center;
+  background-size: 8vw;
+  position: absolute;
+  left: 10.8vw;
+  top: -7vw;
+}
+.device .playerdetails-content .playerhead-title {
+  font-size: 3.8vw;
+}
+
+/* Success */
+.device .success-Content h1 {
+  font-size: 7.5vw;
+  line-height: 8.5vw;
+}
+.device .success-Content p {
+  font-size: 4.8vw;
+}
+.device .success-keep {
+  background: url(../assets/play-icon.svg) no-repeat 7vw 2.6vw transparent;
+  background-size: 3vw !important;
+  width: 40vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  display: block;
+  padding: 1.6vw 1.5vw 1.6vw 5.5vw;
+  border: solid 0.1vw #ffffff;
+  color: #ffffff;
+  border-radius: 10vw;
+  overflow: hidden;
+  position: relative;
+  -webkit-border-radius: 10vw;
+  -moz-border-radius: 10vw;
+  -ms-border-radius: 10vw;
+  -o-border-radius: 10vw;
+  transition: all 0.3s linear;
+}
+.device .success-Content h1::before {
+  content: "";
+  display: block;
+  width: 8vw;
+  height: 2vw;
+  background: url(../assets/getintouch-dots-Pink.svg) no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: 3.6vw;
+  left: -11vw;
+}
+.device .fullplayergoback,
+.fullplayergoback:focus {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  width: 5vw;
+  height: 5vw;
+  background: url(../assets/menuclose-icon-white.svg) no-repeat center center
+    transparent;
+  background-size: 5vw;
+  z-index: 999999;
+  cursor: pointer !important;
+  outline: none;
+}
+.homeplayerheight {
+  height: 60vw;
+}
+
+@media only screen and (min-width: 360px) {
+  .device .aboutscrollpage .mb-5.eachScrolpageTitle {
+    margin-bottom: 1rem !important;
+  }
+  .device .aboutscrollpage .abouthometext div p {
+    margin-top: 1rem !important;
+  }
+  .device .mainabout-fullpage .scroll-explore {
+    margin-bottom: 50vw;
+  }
+
+  .device .Servicespage-Content h1 {
+    font-size: 9vw;
+    line-height: 9vw;
+  }
+  .device .aboutuspage-line {
+    margin-bottom: 3vw;
+  }
+  .device .Servicespage-Content p {
+    margin-top: 3vw;
+    font-size: 4vw;
+  }
+  .device .serv-title h1 {
+    padding: 0vw 0 0 0vw;
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+
+  /* .device .assessment-fullpage .serv-list {
+    height: 50vh;
+  }
+  .device .assessment-fullpage.active .serv-list {
+    height: 0.01vh;
+    overflow: hidden;
+    animation: assessment 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  @keyframes assessment {
+    0%{height: 0.01vh;}
+    100%{height: 50vh;}
+  }
+  .device .strategy-fullpage .serv-list {
+    height: 50vh;
+  }
+  .device .strategy-fullpage.active .serv-list {
+    height: 0.01vh;
+    overflow: hidden;
+    animation: strategy 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  @keyframes strategy {
+    0%{height: 0.01vh;}
+    100%{height: 50vh;}
+  }
+  .device .content-fullpage .serv-list {
+    height: 70vh;
+    padding: 3vw 4vw;
+  }
+  .device .serv-list .serv-list-ul {
+    font-size: 3vw;
+  }
+  .device .serv-list ul li::before {
+    top: 3.6vw !important;
+    left: -0.2vw !important;
+    width: 1vw !important;
+    height: 1vw !important;
+  }
+  .device .content-fullpage .serv-list {
+    height: 68vh;
+  }
+  .device .content-fullpage.active .serv-list {
+    height: 0.01vh;
+    overflow: hidden;
+    animation: contentx 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  @keyframes contentx {
+    0%{height: 0.01vh;}
+    100%{height: 68vh;}
+  }
+  .device .community-fullpage .serv-list {
+    height: 55vh;
+  }
+  .device .community-fullpage.active .serv-list {
+    height: 0.01vh;
+    overflow: hidden;
+    animation: community 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  @keyframes community {
+    0%{height: 0.01vh;}
+    100%{height: 55vh;}
+  }
+  .device .amplification-fullpage .serv-list {
+    height: 51vh;
+  }
+  .device .amplification-fullpage.active .serv-list {
+    height: 0.01vh;
+    overflow: hidden;
+    animation: amplification 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  @keyframes amplification {
+    0%{height: 0.01vh;}
+    100%{height: 51vh;}
+  }
+  
+  .device .media-fullpage .serv-list {
+    height: 60vh;
+  }
+  .device .media-fullpage.active .serv-list {
+    height: 0.01vh;
+    overflow: hidden;
+    animation: media 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  @keyframes media {
+    0%{height: 0.01vh;}
+    100%{height: 60vh;}
+  } */
+
+  .device .Contact-Form form {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .device .ContactHomeCircleImage-device {
+    height: 30vw;
+    background: url(../assets/Contact_pageRound.png) no-repeat center top;
+    background-size: 30vw;
+  }
+  .device .contactPage-getdown::before {
+    content: "";
+    display: block;
+    width: 3vw;
+    height: 2.9vw;
+    position: absolute;
+    top: 6.2vw;
+    left: -4vw;
+    background: #20c2af;
+    border-radius: 2vw;
+  }
+  .device .aboutround-pic {
+    width: 56vw;
+    height: 60.3vw;
+  }
+  .device .aboutround-second-pic {
+    width: 50vw;
+  }
+  .device .aboutDescription-page {
+    font-family: Gilmer-Bold;
+    font-size: 4vw;
+    margin: 0vw 0 6vw 0;
+  }
+  .device .aboutDescriptionWelcome {
+    font-size: 2.8vw;
+  }
+  .device .mt8.frame-title-text {
+    margin-top: 6vw;
+  }
+  .device .frame-title-text {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    line-height: 5vw;
+  }
+  .device .partner-logos ul li {
+    padding: 2vw 0;
+  }
+  .device .partner-logos ul li.facebook-partner i,
+  .device .partner-logos ul li.instagram-partner i,
+  .device .partner-logos ul li.google-partner i,
+  .device .partner-logos ul li.linkedin-partner i,
+  .device .partner-logos ul li.youtube-partner i,
+  .device .partner-logos ul li.twitter-partner i,
+  .device .partner-logos ul li.googlemap-partner i,
+  .device .partner-logos ul li.snapchat-partner i,
+  .device .partner-logos ul li.socialbakers-partner i {
+    display: block;
+    width: 100vw;
+    height: 14vw;
+  }
+  .device .aboutuspage-Content h1 {
+    font-size: 11vw;
+    line-height: 11vw;
+  }
+  .device .aboutscrollpage h1 {
+    font-size: 6vw;
+  }
+  .device .aboutscrollpage p {
+    font-size: 3.3vw !important;
+  }
+  .device .Workpage-Content h1 {
+    font-size: 10.5vw;
+    line-height: 10.5vw;
+  }
+  .device .Workpage-Content p {
+    margin-top: 4vw;
+  }
+  .device .MenuCenter ul {
+    font-size: 12vw;
+  }
+  .device .pt-5.menu-social {
+    padding-top: 3vw !important;
+  }
+  .device .ContactHomeCircleImage-device {
+    display: none;
+  }
+  .device .ContactForm-fullpage .col-12.mt10 {
+    margin-top: 5vw;
+  }
+  .device #myVideo {
+    left: -50%;
+  }
+}
+.device .aboutteamdetails {
+  margin-left: 4vw;
+  position: unset;
+  height: 86vh;
+  margin-top: 16vw;
+}
+.device .aboutdetailslist-ralevent {
+  height: 86vh;
+}
+.device .aboutteamdetails .mCSB_inside > .mCSB_container {
+  padding: 0 5vw;
+}
+.device .deviceteambio {
+  height: 88vh;
+}
+.device .mCSB_scrollTools {
+  left: 0vw;
+}
+.device .aboutdetailslist .aboutscroltitle {
+  font-size: 3.9vw;
+}
+.device .aboutteamdetails #mCSB_1_scrollbar_vertical::before,
+.device .aboutteamdetails #mCSB_2_scrollbar_vertical::before,
+.device .aboutteamdetails #mCSB_3_scrollbar_vertical::before,
+.device .aboutteamdetails #mCSB_4_scrollbar_vertical::before,
+.device .aboutteamdetails #mCSB_5_scrollbar_vertical::before {
+  height: 88vh;
+}
+.device .aboutteamdetails .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  height: 56vh;
+}
+
+.device .country {
+  position: relative;
+}
+.device button.footerprev,
+.device button.footernext {
+  position: absolute;
+  top: 33vw;
+  z-index: 9999999999;
+  border: none;
+  cursor: pointer;
+  width: 20vw;
+  height: 20vw;
+  outline: none;
+}
+.device button.footerprev {
+  left: 3vw;
+  background: url(../assets/massets/footerprev.svg) no-repeat center center
+    transparent;
+  background-size: 15vw;
+}
+.device button.footernext {
+  right: 3vw;
+  background: url(../assets/massets/footernext.svg) no-repeat center center
+    transparent;
+  background-size: 15vw;
+}
+.device .loc {
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: center;
+}
+.device .loctabsize {
+  width: 66%;
+  margin-top: 16vw;
+}
+.device .Country-UAEx .country::before,
+.device .Country-SRAx .country::before,
+.device .Country-PKx .country::before,
+.device .Country-Egyptx .country::before {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 13vw;
+  position: absolute;
+  left: 43%;
+  top: -14.4vw;
+}
+.device .loc.hide {
+  display: none;
+}
+.device .FooterContent {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* .device .locmove {
+  animation: locleft 0.6s ease-in-out forwards;
+}
+@keyframes locleft {
+  0%{
+    margin-left: 0vw;
+  }
+  99%{
+    margin-left: -110vw;
+  }
+  100%{
+    margin-left: -110vw;
+    display: none;
+  }
+}
+.device .show {
+  animation: locshow 0.6s ease-in-out forwards;
+}
+@keyframes locshow {
+  0%{
+    margin-left: 110vw;
+  }
+  100%{
+    margin-left: 0vw;
+  }
+} */

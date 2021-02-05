@@ -1,0 +1,367 @@
+.primary {
+  color: #28c3b2;
+}
+
+.Themeh1 {
+  font-size: 66px;
+  line-height: 62px;
+}
+
+@media (max-width: 400px) {
+  .ThemeH1 {
+    font-size: 2.3em;
+    line-height: 1em;
+    word-break: break-word;
+    font-family: "Gilmer Bold";
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 400px) {
+  .ThemeH1 {
+    font-size: calc(3.1em * 0.77);
+    line-height: 55px;
+    word-break: break-word;
+    font-family: "Gilmer Bold";
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ThemeH1 {
+    font-size: 8vw !important;
+    font-size: calc(3em * 0.77);
+    line-height: 1em;
+    word-break: break-all;
+    font-family: "Gilmer Bold";
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ThemeH1 {
+    font-size: 73px;
+    line-height: 70px;
+    word-break: break-word;
+    font-family: "Gilmer Bold" !important;
+    margin-bottom: 0px;
+  }
+}
+
+.Themeinput::placeholder {
+  color: rgba(255, 255, 255, 0.67);
+  font-family: "Gilmer Regular";
+}
+
+@media (max-width: 765px) {
+  .Themeinput {
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.45);
+    line-height: 39px;
+    font-size: 14px;
+    margin-bottom: 34.5px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .Themeinput {
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.45);
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 34.5px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .Themeinput {
+    width: 100%;
+    color: white;
+    background: rgba(255, 255, 255, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.45);
+    line-height: 22px;
+    font-size: 16.94px;
+    margin-bottom: 34.5px;
+    margin-bottom: 15px;
+    font-family: "Gilmer Light";
+    border-radius: 0px;
+    padding-left: 2px;
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader_spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+video {
+}
+
+@keyframes loader_spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(8px, 0);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.scroll-explore {
+  position: absolute;
+  left: 4.7vw;
+  bottom: 4vw;
+  z-index: 1047;
+}
+
+.scroll-explore a {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.2vw;
+  text-shadow: 1px 1px 5px #000;
+  text-decoration: none;
+  padding: 1vw 0 1vw 2.2vw;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.scroll-explore svg #wheel {
+  animation: scroll ease 1.5s infinite;
+  -webkit-animation: scroll ease 1.5s infinite;
+}
+
+.scroll-explore svg {
+  width: 14px;
+  margin-right: 11px;
+  margin-bottom: 2px;
+}
+
+.scroll-explore .whitemouse svg #wheel, .scroll-explore .whitemouse svg #mouse {
+  stroke: #fff !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(100px);
+  }
+}
+
+/* * Selector ** */
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  user-select: none;
+  width: 100%;
+  padding-top: 10px;
+  height: 53px;
+}
+
+.custom-select {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gilmer Regular";
+  background: transparent;
+  border: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.custom-select__trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 22px;
+  font-size: 16.94px;
+  font-weight: 300;
+  cursor: pointer;
+  border-width: 0px 0 2px 0;
+  border-style: solid;
+  padding-bottom: 7px;
+}
+
+.custom-options {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 2px solid #394a6d;
+  border-top: 0;
+  background: #fff;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.custom-select.open .custom-options {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.custom-option {
+  position: relative;
+  display: block;
+  padding: 0 22px 0 22px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #3b3b3b;
+  line-height: 23px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s;
+}
+
+.custom-option:hover {
+  cursor: pointer;
+  background-color: #b2b2b2;
+}
+
+.custom-option.selected {
+  color: #ffffff;
+  background-color: #305c91;
+}
+
+.arrow {
+  position: relative;
+  height: 15px;
+  width: 15px;
+}
+
+.arrow::before, .arrow::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0.15rem;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.arrow::before {
+  left: -5px;
+  transform: rotate(45deg);
+  background-color: #394a6d;
+}
+
+.arrow::after {
+  left: 5px;
+  transform: scale(0.1);
+  transform: rotate(-45deg);
+  background-color: #394a6d;
+}
+
+.open .arrow::before {
+  left: -5px;
+  transform: rotate(-45deg);
+}
+
+.open .arrow::after {
+  left: 5px;
+  transform: rotate(45deg);
+}
+
+.custom-options {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 2px solid #3e1252;
+  border-top: 0;
+  background: #3e1252;
+  border-radius: 5px;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.custom-option {
+  position: relative;
+  display: block;
+  padding: 0 22px 0 22px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 23px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s;
+}
+
+.custom-select__trigger {
+  font-family: "Gilmer Regular";
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 22px;
+  font-size: 16.94px;
+  font-weight: 300;
+  color: #beb0c5;
+  border-color: #957ca0;
+  cursor: pointer;
+  border-width: 0px 0 1px 0;
+  border-style: solid;
+  padding-bottom: 7px;
+  padding-left: 3px;
+}
+
+.custom-select.open .custom-select__trigger {
+  color: #ffffff;
+}
+
+/* .custom-select__trigger {
+  width: 303px;
+} */
+
